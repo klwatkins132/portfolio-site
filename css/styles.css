@@ -1876,6 +1876,28 @@ textarea {
   filter: none;
   opacity: 0.65;
 }
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.btn-danger:hover {
+  color: #fff;
+  background-color: #bb2d3b;
+  border-color: #b02a37;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+.btn-lg + .dropdown-toggle-split,
+.btn-group-lg > .btn + .dropdown-toggle-split {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
 
 .btn {
   position: relative;
@@ -3593,4 +3615,93 @@ header.masthead .h1 {
 }
 .contact-section .social a:active {
   color: #fff;
+}
+.scroll {
+  display: block;
+  border: 0px solid red;
+  padding: 5px;
+  margin-top: 5px;
+  height: 500px;
+  overflow-y: scroll;
+}
+* {
+  box-sizing: border-box;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 25px;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  color: #06d6a0;
+}
+.numbertext {
+  color: #000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.fade2 {
+  animation-name: fade2;
+  animation-duration: 1.5s;
+}
+@keyframes fade2 {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#buttonS {
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  position: sticky;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  float: right;
+}
+#buttonS:hover {
+  cursor: pointer;
+  color: #daae02;
+}
+#buttonS:active {
+  background-color: #555;
+}
+#buttonS.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.svg-inline--fa {
+  height: 3em;
 }
