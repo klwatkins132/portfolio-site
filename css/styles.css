@@ -3678,7 +3678,6 @@ header.masthead .h1 {
   }
 }
 #buttonS {
-  display: inline-block;
   text-align: center;
   border-radius: 4px;
   position: sticky;
@@ -3701,7 +3700,6 @@ header.masthead .h1 {
   opacity: 1;
   visibility: visible;
 }
-
 .svg-inline--fa {
   height: 3em;
 }
