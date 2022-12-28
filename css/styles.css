@@ -3212,6 +3212,12 @@ fieldset:disabled .btn {
   margin-bottom: 3rem !important;
 }
 
+.mb-6 {
+  margin-bottom: 0.2rem !important;
+  font-weight: bold;
+  font-size: large;
+}
+
 .ms-auto {
   margin-left: auto !important;
 }
